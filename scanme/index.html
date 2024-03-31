@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::after,
+        *::before {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #0e0a30;
+            color: beige;
+            height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        ul {
+            display: flex;
+            gap: 2em;
+
+            li {
+                aspect-ratio: 1/1;
+                max-width: 20em;
+                overflow: hidden;
+                list-style: none;
+
+                img {
+                    max-width: 20em;
+                    aspect-ratio: 1/1;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+    </style>
+</head>
+<h1>Pindai gambar gambar dibawah ini</h1>
+<ul>
+    <li><img src="../images/first.jpg" alt="first"></li>
+    <li><img src="../images/second.jpg" alt="second"></li>
+    <li><img src="../images/third.jpg" alt="third"></li>
+</ul>
+
+<body>
+
+</body>
+
+</html>
